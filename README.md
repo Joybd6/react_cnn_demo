@@ -25,6 +25,7 @@ const asset = {
     "modelWeights1": require("./assets/group1-shard1of2.bin"),
     "modelWeights2": require("./assets/group1-shard2of2.bin")
 }
+// There can be several .bin file for weights. In this case all the bin file should be in array in sequential order.
 
 export default asset
 ```
