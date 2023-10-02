@@ -16,7 +16,7 @@ export default function App() {
 
   const loadModel = async () => {
     modelJson = require('./assets/model.json');
-    modelWeights = require('./assets/group1-shard1of1.bin');
+    modelWeights = require('assets/group1shard1of1.bin');
     //await tf.ready();
     //const bundleResource = tfr.bundleResourceIO(modelJson, modelWeights);
     //const model = await tf.loadLayersModel(bundleResource);
