@@ -2,7 +2,7 @@
 A tensorflow custom model deployed in react native for demo
 
 >[!WARNING]
->The dependancies in the `package.json` file should be maintained carefully.
+>The dependencies in the `package.json` file should be maintained carefully.
 
 **How to:**
 1. Install the dependancies using npm package manager : `npm install`
