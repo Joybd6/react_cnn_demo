@@ -7,15 +7,15 @@ A tensorflow custom model deployed in react native for demo
 **How to:**
 1. Install the dependancies using npm package manager : `npm install`
 2. Run the application: `npx expo start`
-3. Download the Expo app from playstore: [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent).
+3. Download the Expo app from playstore: [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent){:target="_blank"}.
 4. Scan the QR code from terminal where the app is started. Make sure both pc and mobile is in the same local network.
 
 >[!NOTE]
->To generate standalone apk file follow the official guidelines: [Builds APK](https://docs.expo.dev/build-reference/apk/).
+>To generate standalone apk file follow the official guidelines: [Builds APK](https://docs.expo.dev/build-reference/apk/){:target="_blank"}.
 
 
 **How the model is loaded:**
-1. Follow this [jupyter notebook](https://colab.research.google.com/drive/1npm_ibOYlPzfNP_BQ_iv8hz0wcT3SgE6?usp=sharing) to generate trained model file compatible for `tensorflowjs`
+1. Follow this [jupyter notebook](https://colab.research.google.com/drive/1npm_ibOYlPzfNP_BQ_iv8hz0wcT3SgE6?usp=sharing){:target="_blank"} to generate trained model file compatible for `tensorflowjs`
 2. After downloading the model zip file from the notebook extract the files and copy only the files to assets folder in the react native project directory.
 3. To load the model json and its binary file for the weights associated with the model. use a js file containing dictionary of these files. For example:
 ```javascript
@@ -50,7 +50,7 @@ const loadModel = async () => {
 ```
 >[!IMPORTANT]
 > In the react native app, the metro bundler has to be configured to bundle the `.bin` file as asset. You can follow the this codebase's `metro.config.js` for the job.
-> Or the [official guideline](https://facebook.github.io/metro/docs/configuration/) to customze the config file
+> Or the [official guideline](https://facebook.github.io/metro/docs/configuration/){:target="_blank"} to customze the config file
 
 5. Now the prediction can be made by this model like this:
 ```javascript
