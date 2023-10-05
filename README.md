@@ -3,11 +3,12 @@ A tensorflow custom model deployed in react native for demo
 
 >[!WARNING]
 >The dependencies in the `package.json` file should be maintained carefully.
+>Android Sdk buildtools 33.0.0 and NDK 27.1.77796 must be installed
 
 **How to:**
-1. Install the dependancies using npm package manager : `npm install`
-2. Run the application: `npx expo start`
-3. Download the Expo app from playstore: [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent).
+1. Install the dependancies using npm package manager : `npm install --legacy-peer-deps`
+2. Run android emulator from device manager or plug in android phone using usb cable. Make sure developer mode and usb debugging is on
+3. Run the application: `npm run android`
 4. Scan the QR code from terminal where the app is started. Make sure both pc and mobile is in the same local network.
 
 >[!NOTE]
